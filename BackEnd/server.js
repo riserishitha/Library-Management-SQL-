@@ -1,27 +1,21 @@
 const dotenv = require("dotenv");
 const express = require("express");
 const cors = require("cors");
-const { PrismaClient } = require("@prisma/client"); 
-const app = express();
-const prisma = new PrismaClient(); 
+const Collection_route = require("./CollectionRoute");
+const Category_route = require("./CategoryRoute");
+const Member_route = require("./MemberRoute");
+const Book_route = require("./BookRoute");
+const Membership_route = require("./Membership");
+const Issuance_route = require("./Issuance")
 dotenv.config();
+const app = express();
 app.use(cors());
 app.use(express.json());
-app.post("/collection", async (req, res) => {
-  try {
-    const { collection_name } = req.body;
-    if (!collection_name) {
-      return res.status(400).json({ error: "collection_name is required" });
-    }
-    const newCollection = await prisma.collection.create({
-      data: { collection_name },
-    });
-    res.status(201).json(newCollection);
-  } catch (error) {
-    console.error("Error creating collection:", error);
-    res.status(500).json({ error: "Internal server error" });
-  }
-});
-app.listen(process.env.PORT || 5000, () =>
-  console.log(`Server running on port ${process.env.PORT || 5000}`)
-);
+app.use("/", Collection_route);
+app.use("/",Category_route);
+app.use("/",Member_route);
+app.use("/", Book_route);
+app.use("/",Membership_route);
+app.use("/", Issuance_route)
+const PORT = process.env.PORT || 5000;
+app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
