@@ -1,0 +1,112 @@
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+  text-align: center;
+  color: #333;
+}
+
+/* Table Styling */
+.table-wrapper {
+  margin-top: 20px;
+  overflow-x: auto;
+}
+
+.book-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+}
+
+.book-table th, .book-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.book-table th {
+  background-color: #007bff;
+  color: white;
+}
+
+.book-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Links */
+.book-link {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.book-link:hover {
+  text-decoration: underline;
+}
+
+/* No Data Message */
+.no-data {
+  text-align: center;
+  color: red;
+  font-weight: bold;
+}
+
+/* Date Picker */
+.date-picker {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.date-label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.date-dropdown {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Book Details Page */
+.book-details-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.book-title {
+  color: #333;
+}
+
+.back-button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.back-button:hover {
+  background-color: #0056b3;
+}

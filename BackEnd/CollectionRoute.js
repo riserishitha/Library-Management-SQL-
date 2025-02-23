@@ -17,5 +17,12 @@ router.post("/collection", async (req, res) => {
     res.status(500).json({ error: "Internal server error" });
   }
 });
-
+router.get("/getcollection", async (req, res) => {
+  try {
+    const collections = await prisma.collection.findMany();
+    res.status(200).json(collections);
+  } catch (error) {
+    res.status(500).json({ error: "Internal server error" });
+  }
+});
 module.exports = router;
