@@ -7,6 +7,8 @@ import MembersList from "./Component/Members"
 import UpdateBook from "./Component/updateBook";
 import UpdateIssuance from"./Component/updateissuance";
 import "./App.css";
+import Login from "./Component/Login";
+import Signup from "./Component/Signup";
 function App() {
   return (
     <div>
@@ -20,7 +22,9 @@ function App() {
         <Route path="/add" element={<AddBook />} />
         <Route path="/update/book/:id" element={<UpdateBook />} />
         <Route path="/update/issuance/:id" element={<UpdateIssuance/>}/>
-        <Route path="/" element={<BookList />} />
+        <Route path="/" element={<Login/>} />
+        <Route path="/signup" element={<Signup/>} />
+        <Route path="/BookList" element={<BookList/>}></Route>
         <Route path="/issuanceadd" element={<AddBookIssuance/>}/>
         <Route path="/listBooks/:id" element={<BookDetails />} />
         <Route path="/mem" element={<MembersList/>}/>

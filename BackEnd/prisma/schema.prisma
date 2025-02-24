@@ -61,3 +61,10 @@ model Issuance {
   target_return_date DateTime
   issuance_status   String
 }
+
+model Users {
+  Mail     String   @unique
+  Password  String
+  Date DateTime @default(now())
+  id        Int      @id @default(autoincrement())
+}

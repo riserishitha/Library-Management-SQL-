@@ -6,7 +6,8 @@ const Category_route = require("./CategoryRoute");
 const Member_route = require("./MemberRoute");
 const Book_route = require("./BookRoute");
 const Membership_route = require("./Membership");
-const Issuance_route = require("./Issuance")
+const Issuance_route = require("./Issuance");
+const UserRoutes=require('./Signin');
 dotenv.config();
 const app = express();
 app.use(cors());
@@ -16,6 +17,7 @@ app.use("/",Category_route);
 app.use("/",Member_route);
 app.use("/", Book_route);
 app.use("/",Membership_route);
-app.use("/", Issuance_route)
+app.use("/", Issuance_route);
+app.use("/",UserRoutes);
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));

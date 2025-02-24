@@ -1,15 +1,23 @@
 import axios from "axios";
 import { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link,useNavigate } from "react-router-dom";
 
 function BookList() {
   const [books, setBooks] = useState([]);
   const [dates, setDates] = useState([]);
   const [issuances, setIssuances] = useState([]);
   const [selectedDate, setSelectedDate] = useState("");
+  const Nextpage=useNavigate();
+
+  const token =localStorage.getItem('token');
 
   useEffect(() => {
     const fetchBooks = async () => {
+        if (!token) {
+          console.log('No token found, redirecting to login...');
+          Nextpage("/")
+          return;
+        }
       try {
         const response = await axios.get("http://localhost:5000/listBooks");
         setBooks(response.data);
