@@ -1,0 +1,10 @@
+[2025-02-26 11:50:04] [INFO] - Server running on port 5000
+[2025-02-26 11:50:30] [INFO] - {"method":"GET","url":"/listBooks","status":"304","responseTime":"266.892"}
+[2025-02-26 11:50:30] [INFO] - {"method":"GET","url":"/listIssuances","status":"304","responseTime":"259.820"}
+[2025-02-26 11:50:33] [INFO] - {"method":"GET","url":"/getcategory","status":"200","responseTime":"49.295"}
+[2025-02-26 11:50:33] [INFO] - {"method":"GET","url":"/getcollection","status":"200","responseTime":"76.949"}
+[2025-02-26 11:50:33] [INFO] - {"method":"GET","url":"/listBooks","status":"304","responseTime":"5.502"}
+[2025-02-26 11:50:33] [INFO] - {"method":"GET","url":"/listMembers","status":"200","responseTime":"72.478"}
+[2025-02-26 11:50:34] [INFO] - {"method":"GET","url":"/listMembers","status":"304","responseTime":"4.841"}
+[2025-02-26 11:50:35] [INFO] - {"method":"GET","url":"/listBooks","status":"304","responseTime":"7.753"}
+[2025-02-26 11:50:35] [INFO] - {"method":"GET","url":"/listIssuances","status":"304","responseTime":"15.374"}

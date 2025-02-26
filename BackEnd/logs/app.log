@@ -1,0 +1,29 @@
+[2025-02-26 11:56:33] [INFO] - Server running on port 5000
+[2025-02-26 11:56:40] [INFO] - {"method":"GET","url":"/listBooks","status":"304","responseTime":"167.988"}
+[2025-02-26 11:56:40] [INFO] - {"method":"GET","url":"/listIssuances","status":"304","responseTime":"161.209"}
+[2025-02-26 12:49:55] [INFO] - {"method":"GET","url":"/listIssuances","status":"304","responseTime":"208.150"}
+[2025-02-26 12:49:55] [INFO] - {"method":"GET","url":"/listBooks","status":"304","responseTime":"196.233"}
+[2025-02-26 13:32:29] [INFO] - Server running on port 5000
+[2025-02-26 13:32:43] [INFO] - {"method":"GET","url":"/items","status":"404","responseTime":"5.644"}
+[2025-02-26 13:32:51] [INFO] - {"method":"GET","url":"/","status":"404","responseTime":"1.060"}
+[2025-02-26 13:33:14] [INFO] - Server running on port 5000
+[2025-02-26 13:33:16] [INFO] - Server running on port 5000
+[2025-02-26 13:33:21] [INFO] - Server running on port 5000
+[2025-02-26 13:33:23] [INFO] - Server running on port 5000
+[2025-02-26 13:33:31] [INFO] - Server running on port 5000
+[2025-02-26 13:33:35] [INFO] - Server running on port 5000
+[2025-02-26 13:33:43] [INFO] - Server running on port 5000
+[2025-02-26 13:33:47] [INFO] - Server running on port 5000
+[2025-02-26 13:33:52] [INFO] - {"method":"GET","url":"/","status":"404","responseTime":"3.728"}
+[2025-02-26 13:33:53] [INFO] - {"method":"GET","url":"/","status":"404","responseTime":"0.825"}
+[2025-02-26 13:33:54] [INFO] - {"method":"GET","url":"/","status":"404","responseTime":"0.849"}
+[2025-02-26 13:33:54] [INFO] - {"method":"GET","url":"/","status":"404","responseTime":"0.651"}
+[2025-02-26 13:33:54] [INFO] - {"method":"GET","url":"/","status":"404","responseTime":"1.333"}
+[2025-02-26 13:33:54] [INFO] - {"method":"GET","url":"/","status":"404","responseTime":"0.970"}
+[2025-02-26 13:33:54] [INFO] - {"method":"GET","url":"/","status":"404","responseTime":"1.677"}
+[2025-02-26 13:33:55] [INFO] - {"method":"GET","url":"/","status":"404","responseTime":"1.369"}
+[2025-02-26 13:33:55] [INFO] - {"method":"GET","url":"/","status":"404","responseTime":"1.275"}
+[2025-02-26 13:33:56] [INFO] - {"method":"GET","url":"/","status":"404","responseTime":"1.241"}
+[2025-02-26 13:34:14] [INFO] - {"method":"GET","url":"/test","status":"200","responseTime":"6.462"}
+[2025-02-26 13:34:14] [INFO] - {"method":"GET","url":"/favicon.ico","status":"404","responseTime":"0.825"}
+[2025-02-26 16:06:29] [INFO] - Server running on port 5000

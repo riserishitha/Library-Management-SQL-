@@ -1,0 +1,46 @@
+version: "3.8"
+
+services:
+  frontend:
+    image: altfrontend
+    container_name: frontend
+    ports:
+      - "3000:80"  
+    depends_on:
+      - backend
+    networks:
+      - app_network
+
+  backend:
+    image: altbackend
+    container_name: backend
+    ports:
+      - "5000:5000"  
+    depends_on:
+      - db
+    environment:
+      - DATABASE_URL=postgres://rishitha:rishi_1826@host.docker.internal:5432/mydb
+    networks:
+      - app_network
+
+  db:
+    image: postgres
+    container_name: database
+    restart: always
+    environment:
+      POSTGRES_USER: rishitha
+      POSTGRES_PASSWORD: rishi_1826
+      POSTGRES_DB: mydb
+    ports:
+      - "5432:5432"  
+    volumes:
+      - pg_data:/var/lib/postgresql/data
+    networks:
+      - app_network
+
+networks:
+  app_network:
+    driver: bridge
+
+volumes:
+  pg_data:
