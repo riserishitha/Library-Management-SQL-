@@ -5,18 +5,28 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "test-frontend": "mocha \"src/tests/**/*.{test.js,test.jsx}\" --require @babel/register --timeout 5000",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
     "axios": "^1.7.9",
+    "chai": "^5.2.0",
+    "chromedriver": "^134.0.3",
+    "dotenv": "^16.4.7",
+    "esm": "^3.2.25",
+    "mocha": "^11.1.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router": "^7.2.0",
-    "react-router-dom": "^7.2.0"
+    "react-router-dom": "^7.2.0",
+    "selenium-webdriver": "^4.29.0"
   },
   "devDependencies": {
+    "@babel/preset-env": "^7.26.9",
+    "@babel/preset-react": "^7.26.3",
+    "@babel/register": "^7.25.9",
     "@eslint/js": "^9.19.0",
     "@types/react": "^19.0.8",
     "@types/react-dom": "^19.0.3",

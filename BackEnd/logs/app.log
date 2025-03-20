@@ -27,3 +27,21 @@
 [2025-02-26 13:34:14] [INFO] - {"method":"GET","url":"/test","status":"200","responseTime":"6.462"}
 [2025-02-26 13:34:14] [INFO] - {"method":"GET","url":"/favicon.ico","status":"404","responseTime":"0.825"}
 [2025-02-26 16:06:29] [INFO] - Server running on port 5000
+[2025-03-20 09:32:54] [INFO] - Server running on port 5000
+[2025-03-20 09:33:07] [INFO] - {"method":"GET","url":"/listBooks","status":"500","responseTime":"42.465"}
+[2025-03-20 09:33:07] [INFO] - {"method":"GET","url":"/listIssuances","status":"500","responseTime":"74.751"}
+[2025-03-20 09:33:20] [INFO] - {"method":"GET","url":"/listIssuances","status":"500","responseTime":"9.502"}
+[2025-03-20 09:33:20] [INFO] - {"method":"GET","url":"/listBooks","status":"500","responseTime":"19.414"}
+[2025-03-20 09:33:23] [INFO] - {"method":"GET","url":"/listBooks","status":"500","responseTime":"4.719"}
+[2025-03-20 09:33:24] [INFO] - {"method":"GET","url":"/getcategory","status":"500","responseTime":"17.676"}
+[2025-03-20 09:33:25] [INFO] - {"method":"GET","url":"/listBooks","status":"500","responseTime":"4.637"}
+[2025-03-20 09:33:25] [INFO] - {"method":"GET","url":"/listIssuances","status":"500","responseTime":"7.463"}
+[2025-03-20 09:33:26] [INFO] - {"method":"GET","url":"/listMembers","status":"500","responseTime":"5.524"}
+[2025-03-20 09:33:28] [INFO] - {"method":"GET","url":"/listBooks","status":"500","responseTime":"7.638"}
+[2025-03-20 09:33:28] [INFO] - {"method":"GET","url":"/listIssuances","status":"500","responseTime":"3.919"}
+[2025-03-20 09:33:44] [INFO] - {"method":"GET","url":"/listBooks","status":"500","responseTime":"7.864"}
+[2025-03-20 09:33:44] [INFO] - {"method":"GET","url":"/listIssuances","status":"500","responseTime":"10.177"}
+[2025-03-20 09:33:50] [INFO] - {"method":"GET","url":"/listBooks","status":"500","responseTime":"8.078"}
+[2025-03-20 09:33:50] [INFO] - {"method":"GET","url":"/listIssuances","status":"500","responseTime":"10.183"}
+[2025-03-20 09:34:10] [INFO] - {"method":"GET","url":"/listIssuances","status":"500","responseTime":"4.944"}
+[2025-03-20 09:34:10] [INFO] - {"method":"GET","url":"/listBooks","status":"500","responseTime":"8.995"}
