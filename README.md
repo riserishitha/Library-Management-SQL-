@@ -4,7 +4,8 @@
 - **Frontend:** React  
 - **Backend:** Node.js, Express.js  
 - **Database & ORM:** PostgreSQL, Prisma  
-- **API Testing:** Postman  
+- **API Testing:** Postman
+- **Testing:** Selenium with js
 - **Containerization:** Docker  
 
 ## 📌 Features  
